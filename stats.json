@@ -1,0 +1,310 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.42.0",
+  "hash": "ef1bc464c2b5e5282653",
+  "time": 499,
+  "builtAt": 1583666619266,
+  "publicPath": "",
+  "outputPath": "D:\\project\\test-string-diff\\dist",
+  "assetsByChunkName": {
+    "test-string-diff": "test-string-diff.js",
+    "test-string-diff.min": "test-string-diff.min.js"
+  },
+  "assets": [
+    {
+      "name": "test-string-diff.js",
+      "size": 4544,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "test-string-diff"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "test-string-diff.min.js",
+      "size": 1364,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "test-string-diff.min"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "test-string-diff": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "test-string-diff.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "test-string-diff.min": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "test-string-diff.min.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "test-string-diff": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "test-string-diff.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "test-string-diff.min": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "test-string-diff.min.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 345,
+      "names": [
+        "test-string-diff"
+      ],
+      "files": [
+        "test-string-diff.js"
+      ],
+      "hash": "87400e241d5c9972f416",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\project\\test-string-diff\\src\\index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 345,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "test-string-diff"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "test-string-diff.min"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "function compareString (before, after) { // 传入两个比较的字符串\r\n    if (typeof before !== 'string' || typeof after !== 'string') {\r\n        console.error('请传入字符串类型');\r\n        return;\r\n    }\r\n    if (before === after) return '完全一致';\r\n    else return '两个字符串不同';\r\n}\r\n\r\nexport default compareString"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "test-string-diff",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 345,
+      "names": [
+        "test-string-diff.min"
+      ],
+      "files": [
+        "test-string-diff.min.js"
+      ],
+      "hash": "7e0f4d9f9a78dad96f04",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\project\\test-string-diff\\src\\index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 345,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "test-string-diff"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "test-string-diff.min"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "function compareString (before, after) { // 传入两个比较的字符串\r\n    if (typeof before !== 'string' || typeof after !== 'string') {\r\n        console.error('请传入字符串类型');\r\n        return;\r\n    }\r\n    if (before === after) return '完全一致';\r\n    else return '两个字符串不同';\r\n}\r\n\r\nexport default compareString"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "test-string-diff.min",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "D:\\project\\test-string-diff\\src\\index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 345,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "test-string-diff"
+        },
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "test-string-diff.min"
+        }
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "function compareString (before, after) { // 传入两个比较的字符串\r\n    if (typeof before !== 'string' || typeof after !== 'string') {\r\n        console.error('请传入字符串类型');\r\n        return;\r\n    }\r\n    if (before === after) return '完全一致';\r\n    else return '两个字符串不同';\r\n}\r\n\r\nexport default compareString"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
